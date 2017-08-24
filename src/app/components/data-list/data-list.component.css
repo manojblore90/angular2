@@ -1,0 +1,38 @@
+:host{
+  display: table-cell;
+  width: 100%;
+}
+
+.data-list {
+  width:100%;
+}
+
+.tabs-wrapper {
+  width: 100%;
+  height: 100px;
+  position: relative;
+}
+
+.tabs-wrapper p {
+  margin: 0;
+  padding: 0;
+  height: 100px;
+  background-color: purple;
+}
+
+.tabs-wrapper.active{
+  position: absolute;
+  top:50px;
+}
+
+.tabs-wrapper.active p {
+  position: relative;
+  width: 100%;
+  left: 0px;
+  height: 400px !important;
+  z-index: 99;
+  transition: height .75s ease-in-out;
+  -o-transition: height .75s ease-in-out;
+  -moz-transition: height .75s ease-in-out;
+  -webkit-transition: height .75s ease-in-out;
+}

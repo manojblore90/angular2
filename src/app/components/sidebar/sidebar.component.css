@@ -1,0 +1,15 @@
+:host{
+  display: table-cell;
+}
+
+.sidebar {
+  width: 100%;
+  height: 400px;
+  background-color: #293637;
+}
+
+.sidebar p {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}

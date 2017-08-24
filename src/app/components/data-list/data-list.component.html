@@ -1,0 +1,5 @@
+<div *ngFor="let tab of Tabs" class="text-center tabs-wrapper" (click)="toggle(tab)" [ngClass]="{'active': tab.isActive}">
+  <p [ngStyle]="{'background-color': tab.color}">{{tab.name}}</p>
+</div>
+
+

@@ -1,0 +1,10 @@
+angular-webapp@0.0.0 D:\AngularProject\AngularWebapp
++-- @angular/compiler-cli@2.4.10
+| `-- reflect-metadata@0.1.2 
++-- @angular/core@2.4.10 
++-- es6-shim@0.35.3 
++-- jquery@3.2.1 
++-- popper.js@1.12.3 
++-- UNMET PEER DEPENDENCY rxjs@5.4.3
+`-- UNMET PEER DEPENDENCY zone.js@0.7.8
+

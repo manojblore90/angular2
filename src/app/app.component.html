@@ -1,0 +1,8 @@
+<app-navbar></app-navbar>
+<button (click)="isActive = !isActive;toggleMenu()" class="hamburger" [ngClass]="{'active': isActive}">
+  <span></span>
+</button>
+<div class="content-wrapper">
+  <app-sidebar [@slideInOut]="menuState"></app-sidebar>
+  <app-data-list></app-data-list>
+</div>

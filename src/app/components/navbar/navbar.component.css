@@ -1,0 +1,13 @@
+.navbar-wrapper{
+  background-color: pink;
+  height: 50px;
+  position: relative;
+}
+
+.navbar-wrapper p{
+  width: 100%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  transform: translatey(-50%);
+}
